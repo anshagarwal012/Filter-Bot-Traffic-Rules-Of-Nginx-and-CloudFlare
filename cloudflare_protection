@@ -9,3 +9,8 @@ Block Old WordPress URLs
 #Seteps to add
 1. Security->Bots-> enable All
 2. Scurity->WAF->create Rule
+
+
+
+For Automatic Deployment First
+Clone deply.sh and run
