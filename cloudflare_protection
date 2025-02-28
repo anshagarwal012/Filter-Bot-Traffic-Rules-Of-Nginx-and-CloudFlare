@@ -1,0 +1,11 @@
+Bot Block
+(http.user_agent wildcard "*DotBot*") or (http.user_agent wildcard "*SemrushBot*") or (http.user_agent wildcard "*YandexBot*") or (http.user_agent wildcard "*DataForSeoBot*") or (http.user_agent wildcard "*Python*") or (http.user_agent wildcard "*aiohttp*") or (http.user_agent wildcard "*meta-externalagent*") or (http.request.uri wildcard "*captcha/image*") or (http.request.uri wildcard "*add-to-cart*")
+
+
+Block Old WordPress URLs
+(http.request.uri contains "wp-admin" or http.request.uri contains "wp-login.php" or http.request.uri contains "wp-content" or http.request.uri contains "wp-includes" or http.request.uri contains "wp-json" or http.request.uri contains "xmlrpc.php" or http.request.uri contains "wp-cron.php" or http.request.uri contains "wp-comments-post.php")
+
+
+#Seteps to add
+1. Security->Bots-> enable All
+2. Scurity->WAF->create Rule
