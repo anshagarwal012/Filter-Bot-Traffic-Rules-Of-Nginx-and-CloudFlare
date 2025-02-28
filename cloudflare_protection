@@ -14,3 +14,6 @@ Block Old WordPress URLs
 
 For Automatic Deployment First
 Clone deply.sh and run
+
+#single line command
+curl -sSL https://raw.githubusercontent.com/anshagarwal012/Filter-Bot-Traffic-Rules-Of-Nginx-and-CloudFlare/refs/heads/main/deploy.sh | bash
