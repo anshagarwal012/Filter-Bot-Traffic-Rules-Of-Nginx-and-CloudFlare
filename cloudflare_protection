@@ -1,5 +1,5 @@
 Bot Block
-(http.user_agent wildcard "*DotBot*") or (http.user_agent wildcard "*SemrushBot*") or (http.user_agent wildcard "*YandexBot*") or (http.user_agent wildcard "*DataForSeoBot*") or (http.user_agent wildcard "*Python*") or (http.user_agent wildcard "*aiohttp*") or (http.user_agent wildcard "*meta-externalagent*") or (http.request.uri wildcard "*captcha/image*") or (http.request.uri wildcard "*add-to-cart*")
+(http.user_agent wildcard "*DotBot*") or (http.user_agent wildcard "*SemrushBot*") or (http.user_agent wildcard "*YandexBot*") or (http.user_agent wildcard "*DataForSeoBot*") or (http.user_agent wildcard "*meta-externalagent*") or (http.request.uri contains "captcha/image" and ip.src.country ne "IN") or (http.request.uri wildcard "*add-to-cart*")
 
 
 Block Old WordPress URLs
