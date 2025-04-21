@@ -6,7 +6,7 @@ Block Old WordPress URLs
 (http.request.uri contains "wp-admin" or http.request.uri contains "wp-login.php" or http.request.uri contains "wp-content" or http.request.uri contains "wp-includes" or http.request.uri contains "wp-json" or http.request.uri contains "xmlrpc.php" or http.request.uri contains "wp-cron.php" or http.request.uri contains "wp-comments-post.php")
 
 Block ASN
-(ip.src.asnum in {212238 150343 16276 213421 35540 395936 46844 16509 396982 36459 134676 209366})
+(ip.src.asnum in {212238 150343 16276 213421 35540 395936 46844 16509 396982 36459 134676 209366 8075 55960})
 
 #Seteps to add
 1. Security->Bots-> enable All
